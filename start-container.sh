@@ -1,0 +1,1 @@
+docker run -it -d -e ENV_KUBERNETES_NS='myapp ns' -e ENV_KUBERNETES_POD='myapp pod' -p 8083:8080 raphaelherding/pet-clinic-v3

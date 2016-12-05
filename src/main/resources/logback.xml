@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration debug="false">
+
+	<include resource="org/springframework/boot/logging/logback/base.xml" />
+	
+	<logger name="org.springframework" level="ERROR" />
+
+	<logger name="sample.ui.aop" level="ERROR" />
+	<logger name="sample.ui.web.GeneralController" level="ERROR" />
+
+	<logger name="org.springframework.webflow" level="ERROR" />
+	<logger name="sample.ui.config.WebFlowConfig" level="ERROR" />
+	<logger name="sample.ui.service" level="WARN" />
+	<logger name="org.springframework.security" level="ERROR"/>
+	<logger name="org.springframework.security" level="ERROR"/>
+	<logger name="org.hibernate.tool.hbm2ddl.SchemaExport" level="ERROR"/>
+	<logger name="org.hibernate.jpa.internal.util.LogHelper" level="ERROR"/>
+	<logger name="org.hsqldb.jdbc" level="ERROR"/>
+
+</configuration>

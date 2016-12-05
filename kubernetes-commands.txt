@@ -1,0 +1,4 @@
+## Need to create a secret key that the Pods are able to pull the private registry
+## the user has readonly permissions to the hit-repository (see Nexus config)
+
+kubectl create secret docker-registry dockerpullcredentials --docker-server=nexus.itgo-devops.org:18444 --docker-username=docker-pull-user --docker-password=123456 --docker-email=docker-pull-user@itergo.com
